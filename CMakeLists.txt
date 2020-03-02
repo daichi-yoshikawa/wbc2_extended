@@ -5,9 +5,9 @@ set(CMAKE_CXX_STANDARD 14)
 ### Project options
 option(WBC2_EXTENDED_BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
-set(WBC2_DIR ${PROJECT_SOURCE_DIR}/../wbc2)
-set(THIRD_PARTY_DIR ${WBC2_DIR}/third_party)
+set(THIRD_PARTY_DIR ${PROJECT_SOURCE_DIR}/third_party)
 set(EIGEN3_INCLUDE_DIR ${THIRD_PARTY_DIR}/eigen-3.3.7)
+set(WBC2_DIR ${PROJECT_SOURCE_DIR}/../wbc2)
 set(WBC2_INCLUDE_DIR ${WBC2_DIR}/include)
 set(WBC2_LIBRARIES ${WBC2_DIR}/build/libwbc2.a)
 
