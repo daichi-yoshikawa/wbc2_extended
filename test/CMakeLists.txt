@@ -1,0 +1,3 @@
+add_executable(test_wbc2_extended main.cpp)
+
+target_link_libraries(test_wbc2_extended wbc2_extended)
